@@ -6,6 +6,11 @@
     <title>LOOP</title>
 </head>
 <body>
+
+<?php 
+include('Exo1.php')
+?>
+
 <?php 
 // While
     echo "Loop While" . '<br>';
@@ -33,6 +38,20 @@
     for($i = 0; $i <= 10; $i++){
         $num = 8;
         echo "$num * $i = " . ($num * $i) . '<br>';
+    };
+
+
+
+    $names = array('Simpara', 'Toure', 'Cisse', 'Diallo');
+    
+    foreach($names as $name){
+        echo $name . '<br/>';
+    }
+
+    $prices = array('tomoto' => 23, 'Apple' => 50, 'grape' => 40);
+
+    foreach($prices as $name => $price){
+        echo "$name => $price " . '<br/>';
     }
 ?>
 </body>
