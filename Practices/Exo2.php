@@ -24,7 +24,9 @@
  //Boolean
  $e = true;
  $f = false;
- echo gettype($e)
+ echo gettype($e).' '. '<br>';
+
+ echo "$c is the best among all programming"
 
  ?>
 
